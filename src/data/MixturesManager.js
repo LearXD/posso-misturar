@@ -1,10 +1,7 @@
 const data = require('./data.json');
 
 export const getFirstSelectItens = () => {
-  const newData = {
-    ...data
-  }
-  return newData.map(product => product.name)
+  return data.map(product => product.name)
 }
 
 export const getSecondSelectItens = (firstSelectValue) => {

@@ -6,4 +6,41 @@
   width: 100%;
   border: 1px solid #003357;
   border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.a {
+  flex-grow: 8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.a p {
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 600;
+}
+
+.b {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.productSelect {
+  flex-wrap: wrap;
+  word-wrap: normal;
+  flex-basis: 0;
+  flex-grow: 1;
+  border: 1px solid #000000;
+  display: flex;
+  text-align: center;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }

@@ -1,3 +1,5 @@
+import { useState } from 'react';
+
 import Header from '../../components/pages/Header';
 import Footer from '../../components/pages/Footer'
 
@@ -8,6 +10,11 @@ import ProductSelector from '../../components/ProductSelector';
 console.log(combineWith("Alvejante", "Vinagre"));
 
 function Main() {
+
+  const [firstSelected, setFirstSelected] = useState(null)
+
+  console.log(firstSelected)
+
   return (
     <>
       <Header />
@@ -19,23 +26,23 @@ function Main() {
           </div>
 
           <div className="productsContainer">
-            <ProductSelector />
+            <ProductSelector firstSelected={firstSelected} selectProduct={setFirstSelected} isFirst />
             <p>COM</p>
             <ProductSelector />
+          </div>
+
+          <button className='combineButton'>
+            COMBINAR
+          </button>
+
+          <div className='resultsContainer'>
+
           </div>
         </div>
       </main >
       <Footer />
     </>
-
-
-
   )
 }
 
 export default Main;
-
-
-/*
-
-          */
