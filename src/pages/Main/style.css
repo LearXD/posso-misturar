@@ -1,0 +1,52 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 20px;
+  height: 100vh;
+}
+
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  max-width: 900px;
+  height: 100vh;
+}
+
+.titleContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50%;
+  width: 100%;
+}
+
+.titleContainer h1 {
+  color: #003357;
+  overflow-y: hidden;
+  text-align: center;
+  flex-wrap: wrap;
+  font-family: 'Kalam', cursive;
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.titleContainer p {
+  overflow-y: hidden;
+  font-size: 1em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.productsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+}

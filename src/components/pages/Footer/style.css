@@ -1,0 +1,14 @@
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 100px;
+  width: 100vw;
+  color: white;
+}
+
+footer p {
+  font-size: 0.8em;
+  font-family: 'Ubuntu', sans-serif;
+}

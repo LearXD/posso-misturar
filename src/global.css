@@ -1,11 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+
 * {
   margin: 0px;
   padding: 0px;
   outline: 0px;
+  text-decoration: none;
+  font-size: 3vh;
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
 }
 
 div {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }

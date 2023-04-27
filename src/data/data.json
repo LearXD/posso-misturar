@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Alvejante",
+    "image": "",
+    "combinations": [
+      {
+        "name": "Vinagre",
+        "dangerous": "true",
+        "description": "Mistura de vinagre com alvejante pode liberar gás cloro, que é tóxico."
+      },
+      {
+        "name": "Amonia",
+        "dangerous": "true",
+        "description": "Mistura de amonia com alvejante pode liberar gás cloro, que é tóxico."
+      }
+    ]
+  },
+  {
+    "name": "Peróxido de hidrogênio",
+    "image": "",
+    "combinations": [
+      {
+        "name": "Vinagre",
+        "dangerous": "true",
+        "description": "Mistura de vinagre com peróxido de hidrogênio pode liberar gás peracético, que é tóxico."
+      },
+      {
+        "name": "Amonia",
+        "dangerous": "true",
+        "description": "Mistura de amonia com peróxido de hidrogênio pode liberar gás peracético, que é tóxico."
+      }
+    ]
+  }
+]
