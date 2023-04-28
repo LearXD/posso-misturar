@@ -1,12 +1,19 @@
-import { getFirstSelectItens, getSecondSelectItens } from '../../data/MixturesManager';
+import { getFirstSelectItens, getProductByName, getSecondSelectItens } from '../../data/MixturesManager';
 
 import './style.css'
 
 
-function ProductSelector({ selectProduct, firstSelected, isFirst }) {
+function ProductSelector({
+  selected,
+  selectProduct,
+  firstSelected,
+  isFirst
+}) {
 
   const handleSelect = (e) => {
-    selectProduct && selectProduct(e.target.value)
+    selectProduct && selectProduct(
+      e.target.value === "Selecione" ? null : e.target.value
+    )
   }
 
   const data = isFirst ? getFirstSelectItens() : (firstSelected && getSecondSelectItens(firstSelected ?? ''))
@@ -14,13 +21,27 @@ function ProductSelector({ selectProduct, firstSelected, isFirst }) {
   return (
     <div className='productSelector'>
       <div className='a'>
-        <p>
-          Selecione algum produto
-        </p>
+        {selected ? (
+          <>
+            <img
+              alt='Imagem do Produto'
+              src={getProductByName(selected).image || 'https://via.placeholder.com/150'}
+            />
+            <p>{selected}</p>
+          </>
+
+        ) : (
+          <p>Selecione um produto</p>
+        )}
 
       </div>
       <div className='b'>
-        <select disabled={(!isFirst && !data)} onChange={handleSelect} className='productSelect'>
+        <select
+          value={!selected ? 'Selecione' : selected}
+          disabled={(!isFirst && !data)}
+          onChange={handleSelect}
+          className='productSelect'
+        >
           <option key={0} value={null}>Selecione</option>
           {
             data ?

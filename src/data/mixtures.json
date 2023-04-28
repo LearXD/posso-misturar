@@ -1,0 +1,34 @@
+[
+  {
+    "type": "dangerous",
+    "products": [
+      "Peroxido de Hidrogenio",
+      "Amonia"
+    ],
+    "message": "Mistura de amonia com peróxido de hidrogênio pode liberar gás peracético, que é tóxico."
+  },
+  {
+    "type": "dangerous",
+    "products": [
+      "Peroxido de Hidrogenio",
+      "Vinagre"
+    ],
+    "message": "Mistura de vinagre com peróxido de hidrogênio pode liberar gás peracético, que é tóxico."
+  },
+  {
+    "type": "dangerous",
+    "products": [
+      "Alvejante",
+      "Vinagre"
+    ],
+    "message": "Mistura de vinagre com alvejante pode liberar gás cloro, que é tóxico."
+  },
+  {
+    "type": "dangerous",
+    "products": [
+      "Alvejante",
+      "Amônia"
+    ],
+    "message": "Mistura de amônia com alvejante pode liberar gás cloro, que é tóxico."
+  }
+]

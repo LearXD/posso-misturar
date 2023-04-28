@@ -12,16 +12,23 @@
 }
 
 .a {
-  flex-grow: 8;
   display: flex;
-  align-items: center;
+  flex-grow: 4;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+}
+
+.a img {
+  padding-bottom: 10px;
+  height: 200px;
+  width: 90%;
 }
 
 .a p {
-  font-size: 1rem;
+  font-size: 0.9rem;
   text-align: center;
-  font-weight: 600;
+  font-weight: 600px;
 }
 
 .b {
@@ -32,6 +39,7 @@
 }
 
 .productSelect {
+  font-size: 0.6em;
   flex-wrap: wrap;
   word-wrap: normal;
   flex-basis: 0;
@@ -43,4 +51,5 @@
   align-items: center;
   justify-content: center;
   width: 100%;
+  height: 40px;
 }

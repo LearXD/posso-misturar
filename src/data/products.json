@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Vinagre",
+    "formula": "CH3COOH",
+    "image": "https://t2.gstatic.com/licensed-image?q=tbn:ANd9GcTlLh0YSbLbnCYV0eBl30audx1UqMzmO7NMlzRW38anMCyhfTe3phhsRs9nErSyM_QV",
+    "mixtures": {
+      "dangerous": [
+        "Alvejante",
+        "Peroxido de Hidrogenio"
+      ],
+      "unrecommended": []
+    }
+  },
+  {
+    "name": "Amonia",
+    "formula": "NH3",
+    "image": "https://drogariaspacheco.vteximg.com.br/arquivos/ids/799481-1000-1000/656275---amonia-ever-care-100ml.jpg?v=637843451238730000",
+    "mixtures": {
+      "dangerous": [
+        "Alvejante",
+        "Peroxido de Hidrogenio"
+      ],
+      "unrecommended": []
+    }
+  },
+  {
+    "name": "Alvejante",
+    "formula": "NaClO",
+    "image": "https://www.brilhante.com.br/images/jw6al4qorxz1/2Z105DPtof6wSVNgmvv5Go/08e2534038bfabe266372b76d209f327/QWx2ZWphbnRlX0JyaWxoYW50ZV9DbG9yb19BdGl2b19GcmVzaF8ucG5n/1080w-1080h/alvejante-brilhante-cloro-ativo-fresh.avif",
+    "mixtures": {
+      "dangerous": [
+        "Amonia",
+        "Vinagre"
+      ],
+      "unrecommended": []
+    }
+  },
+  {
+    "name": "Peroxido de Hidrogenio",
+    "formula": "H2O2",
+    "image": "https://images-americanas.b2w.io/produtos/1707097918/imagens/peroxido-de-hidrogenio-1-com-1000ml/1707097926_1_xlarge.jpg",
+    "mixtures": {
+      "dangerous": [
+        "Amonia",
+        "Vinagre"
+      ],
+      "unrecommended": []
+    }
+  }
+]

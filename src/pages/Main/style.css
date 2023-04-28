@@ -3,7 +3,7 @@ main {
   flex-direction: column;
   align-items: center;
   padding: 20px 20px;
-  height: 100vh;
+  height: 100%;
 }
 
 .mainContainer {
@@ -12,7 +12,8 @@ main {
   align-items: center;
   width: 100vw;
   max-width: 900px;
-  height: 100vh;
+  min-height: 100vh;
+  height: auto;
 }
 
 .titleContainer {
@@ -20,35 +21,45 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 50%;
-  width: 100%;
+  height: auto;
 }
 
 .titleContainer h1 {
   color: #003357;
-  overflow-y: hidden;
   text-align: center;
   flex-wrap: wrap;
   font-family: 'Kalam', cursive;
-  font-size: 3em;
+  font-size: 8vh;
   margin-bottom: 20px;
 }
 
 .titleContainer p {
-  overflow-y: hidden;
-  font-size: 1em;
   text-align: center;
+  font-size: 3vh;
   margin-bottom: 20px;
 }
 
 .productsContainer {
   display: flex;
-  flex-wrap: wrap;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  height: 100%;
+  /* height: 100%;
+  width: 100%; */
   width: 100%;
+  height: 400px;
+}
+
+@media only screen and (max-width: 768px) {
+  .titleContainer {
+    height: auto;
+  }
+
+  .productsContainer {
+    flex-direction: column;
+    justify-content: center;
+    height: 800px;
+  }
 }
 
 .productsContainer p {
@@ -62,14 +73,38 @@ main {
   justify-content: center;
   background-color: #003357;
   color: #fff;
-  height: 100px;
+  height: 80px;
   font-size: 0.7em;
   border: none;
   border-radius: 10px;
   cursor: pointer;
+  margin-top: 30px;
   width: 95%;
 }
 
 .combineButton:hover {
   background-color: #002b4d;
+}
+
+.resultContainer {
+  margin: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #003357;
+  border-radius: 10px;
+  height: 300px;
+  width: 100%;
+  max-width: 90vw;
+  text-align: center;
+}
+
+.resultContainer h1 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.resultContainer p {
+  font-size: 0.9em;
 }

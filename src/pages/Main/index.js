@@ -3,17 +3,37 @@ import { useState } from 'react';
 import Header from '../../components/pages/Header';
 import Footer from '../../components/pages/Footer'
 
-import { combineWith } from '../../data/MixturesManager'
+import { animateScroll as scroll } from 'react-scroll';
+import { combineWith, getTitlePerType } from '../../data/MixturesManager'
 import './style.css';
 import ProductSelector from '../../components/ProductSelector';
-
-console.log(combineWith("Alvejante", "Vinagre"));
 
 function Main() {
 
   const [firstSelected, setFirstSelected] = useState(null)
+  const [secondSelected, setSecondSelected] = useState(null)
 
-  console.log(firstSelected)
+  const [result, setResult] = useState(null)
+
+  const setScopeProduct = (product) => {
+    setFirstSelected(null)
+    setFirstSelected(product)
+    setSecondSelected(null)
+    setResult(null)
+  }
+
+  const combineItens = () => {
+    if (!firstSelected || !secondSelected)
+      return;
+
+    const data = combineWith(firstSelected, secondSelected)
+    // scroll to end
+    scroll.scrollToBottom({
+      "smooth": true
+    });
+
+    setResult(data)
+  }
 
   return (
     <>
@@ -26,18 +46,38 @@ function Main() {
           </div>
 
           <div className="productsContainer">
-            <ProductSelector firstSelected={firstSelected} selectProduct={setFirstSelected} isFirst />
+
+            <ProductSelector
+              selected={firstSelected}
+              selectProduct={setScopeProduct}
+              isFirst
+            />
+
             <p>COM</p>
-            <ProductSelector />
+
+            <ProductSelector
+              selected={secondSelected}
+              firstSelected={firstSelected}
+              selectProduct={setSecondSelected}
+            />
           </div>
 
-          <button className='combineButton'>
-            COMBINAR
+          <button onClick={combineItens} disabled={!firstSelected || !secondSelected} className='combineButton'>
+            {firstSelected && secondSelected ? "COMBINAR" : "Selecione dois produtos!"}
           </button>
 
           <div className='resultsContainer'>
 
           </div>
+
+          {
+            result && (
+              <div className='resultContainer'>
+                <h1>{getTitlePerType(result.type)}</h1>
+                <p>{result.message}</p>
+              </div>
+            )
+          }
         </div>
       </main >
       <Footer />

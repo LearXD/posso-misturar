@@ -3,7 +3,8 @@ import './style.css';
 function Footer() {
   return (
     <footer>
-      <p>LearXD</p>
+      <p>IFMG - ITABIRITO</p>
+      <p>2023</p>
     </footer>
   )
 }
