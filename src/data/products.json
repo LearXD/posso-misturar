@@ -12,7 +12,7 @@
     }
   },
   {
-    "name": "Amonia",
+    "name": "Amônia",
     "formula": "NH3",
     "image": "https://drogariaspacheco.vteximg.com.br/arquivos/ids/799481-1000-1000/656275---amonia-ever-care-100ml.jpg?v=637843451238730000",
     "mixtures": {
@@ -29,7 +29,7 @@
     "image": "https://www.brilhante.com.br/images/jw6al4qorxz1/2Z105DPtof6wSVNgmvv5Go/08e2534038bfabe266372b76d209f327/QWx2ZWphbnRlX0JyaWxoYW50ZV9DbG9yb19BdGl2b19GcmVzaF8ucG5n/1080w-1080h/alvejante-brilhante-cloro-ativo-fresh.avif",
     "mixtures": {
       "dangerous": [
-        "Amonia",
+        "Amônia",
         "Vinagre"
       ],
       "unrecommended": []
@@ -41,8 +41,19 @@
     "image": "https://images-americanas.b2w.io/produtos/1707097918/imagens/peroxido-de-hidrogenio-1-com-1000ml/1707097926_1_xlarge.jpg",
     "mixtures": {
       "dangerous": [
-        "Amonia",
+        "Amônia",
         "Vinagre"
+      ],
+      "unrecommended": []
+    }
+  },
+  {
+    "name": "Álcool",
+    "formula": "H2O2",
+    "image": "https://a-static.mlcdn.com.br/1500x1500/alcool-70-start-etilico-hidratado-500ml-modik/mundodalimpeza/a3d33014a10611eba18d4201ac1850f5/2079544825df9c772daee39a5fc0200d.jpeg",
+    "mixtures": {
+      "dangerous": [
+        "Alvejante"
       ],
       "unrecommended": []
     }

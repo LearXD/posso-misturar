@@ -29,6 +29,22 @@
       "Alvejante",
       "Amônia"
     ],
-    "message": "Mistura de amônia com alvejante pode liberar gás cloro, que é tóxico."
+    "message": "Mistura de amônia com alvejante pode liberar gás cloro, que é tóxico. A mistura de alvejante com álcool é perigosa, pois libera cloramina. A cloramina queima os olhos e o sistema respiratório e pode causar danos aos órgãos internos. Se houver amônia suficiente na mistura, a hidrazina pode ser produzida. A hidrazina não é apenas tóxica, mas também potencialmente explosiva. O melhor cenário é desconforto; o pior cenário é a morte."
+  },
+  {
+    "type": "dangerous",
+    "products": [
+      "Alvejante",
+      "Álcool"
+    ],
+    "message": "A mistura de alvejante com álcool é perigosa, pois libera clorofórmio. Nocivo por ingestão. Irritante para a pele. Possibilidade de efeitos cancerígenos. Nocivo: risco de efeitos graves para a saúde em caso de exposição prolongada por inalação e ingestão."
+  },
+  {
+    "type": "dangerous",
+    "products": [
+      "Amônia",
+      "Alvejante"
+    ],
+    "message": ""
   }
 ]
