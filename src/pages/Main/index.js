@@ -75,7 +75,7 @@ function Main() {
           {
             result && (
               <div className='resultContainer'>
-                <h1 style={{backgroundColor: type == result.type ? "#FF0000" : "white"}}>{getTitlePerType(result.type)}</h1>
+                <h1 style={{ backgroundColor: type === result.type ? "#FF0000" : "transparent" }}>{getTitlePerType(result.type)}</h1>
                 <p>{result.message}</p>
               </div>
             )
