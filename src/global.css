@@ -8,10 +8,7 @@
   text-decoration: none;
   font-size: 3vh;
   box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
   overflow-x: hidden;
-}
-
-div {
-  font-family: 'Montserrat', sans-serif;
 }

@@ -2,20 +2,32 @@ const products = require('./products.json');
 const mixtures = require('./mixtures.json');
 
 export const getProductByName = (name) => {
-  return products.find(product => product.name === name)
+  return products.find(product => {
+    return product.name === name || product.aliases.includes(name)
+  })
 }
 
 export const getTitlePerType = (type) => {
   const types = {
-    "safe": "Pode Misturar!",
-    "dangerous": "Não Pode Misturar!",
-    "warning": "Pode Misturar! Porem..."
+    safe: "Pode Misturar!",
+    dangerous: "Não Pode Misturar!",
+    warning: "Pode Misturar! Porem..."
   };
   return types[type] ?? "Não há informações suficientes";
 }
 
-export const getFirstSelectItens = () => {
-  return products.map(product => product.name)
+export const getFirstSelectItens = async () => {
+  const productNames = [];
+
+
+  for await (let product of products) {
+    productNames.push(product.name)
+    for await (let alias of product.aliases) {
+      productNames.push(alias)
+    }
+  }
+
+  return productNames
 }
 
 
@@ -24,7 +36,11 @@ export const getSecondSelectItens = (firstSelectValue) => {
   if (!data) {
     return ['Nenhuma informação encontrada']
   }
-  return data.mixtures.dangerous;
+  return [
+    ...data.mixtures.dangerous,
+    ...data.mixtures.unrecommended,
+    ...data.mixtures.safe
+  ];
 }
 
 export const combineWith = (a, b) => {

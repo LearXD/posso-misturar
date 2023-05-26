@@ -2,48 +2,37 @@
   {
     "name": "Álcool",
     "formula": "",
-    "image": "https://io.convertiez.com.br/m/primecirurgica/shop/products/images/2535/large/alcool-etilico-hidratado-70-70-inpm-prolink-p2535_5846.png",
+    "image": "",
     "aliases": [
       "Álcool Gel",
       "Álcool Liquido"
     ],
     "mixtures": {
-      "dangerous": [
-        "Água sanitária"
-      ],
+      "dangerous": [],
       "unrecommended": [],
-      "safe": [
-        "Vinagre"
-      ]
+      "safe": []
     }
   },
   {
     "name": "Água oxigenada",
     "formula": "",
-    "image": "https://rioquimica.com.br/wp-content/uploads/2020/11/%C3%81GUA-OXIGENADA-40-VOLUMES-90ML-Gotejador.png",
+    "image": "",
     "aliases": [
       "Peróxido de hidrogênio"
     ],
     "mixtures": {
-      "dangerous": [
-        "Vinagre"
-      ],
+      "dangerous": [],
       "unrecommended": [],
-      "safe": [
-        "Água sanitária"
-      ]
+      "safe": []
     }
   },
   {
     "name": "Antibiótico",
     "formula": "",
-    "image": "https://s1.static.brasilescola.uol.com.br/be/conteudo/images/todo-medicamento-deve-ser-usado-acordo-com-as-recomendacoes-medicas-565063d41a9b9.jpg",
+    "image": "",
     "aliases": [],
     "mixtures": {
-      "dangerous": [
-        "Bebida alcoólica",
-        "Leite"
-      ],
+      "dangerous": [],
       "unrecommended": [],
       "safe": []
     }
@@ -51,28 +40,22 @@
   {
     "name": "Bebida alcoólica",
     "formula": "",
-    "image": "https://www.institutogarrido.com.br/wp-content/uploads/2017/07/Junho6.jpg",
+    "image": "",
     "aliases": [
       "Cerveja",
       "Cachaça",
       "Qualquer bebida alcoólica"
     ],
     "mixtures": {
-      "dangerous": [
-        "Antibiótico",
-        "Dipirona",
-        "Paracetamol"
-      ],
+      "dangerous": [],
       "unrecommended": [],
-      "safe": [
-        "Loratadina"
-      ]
+      "safe": []
     }
   },
   {
     "name": "Loratadina",
     "formula": "",
-    "image": "https://cdn.ultrafarma.com.br/static/produtos/134908/medium-637244714298578365-134908_2.jpg",
+    "image": "",
     "aliases": [
       "Antihistamínico",
       "Antialérgico"
@@ -80,15 +63,13 @@
     "mixtures": {
       "dangerous": [],
       "unrecommended": [],
-      "safe": [
-        "Bebida alcoólica"
-      ]
+      "safe": []
     }
   },
   {
     "name": "Sertralina",
     "formula": "",
-    "image": "https://d1xdssnpeez8k0.cloudfront.net/Custom/Content/Products/74/59/7459_cloridrato-de-sertralina-ems-50mg-caixa-com-30-comprimidos-revestidos-p7896004759845_l1_637217817291143001.jpg",
+    "image": "",
     "aliases": [
       "Zoloft"
     ],
@@ -101,7 +82,7 @@
   {
     "name": "Fluoxetina",
     "formula": "",
-    "image": "https://d1xdssnpeez8k0.cloudfront.net/Custom/Content/Products/14/14/14140_cloridrato-de-fluoxetina-teuto-20mg-caixa-com-30-capsulas-gelatinosas-duras-p7896112125617_l1_637217823239333071.jpg",
+    "image": "",
     "aliases": [
       "Prozac"
     ],
@@ -114,7 +95,7 @@
   {
     "name": "Omeprazol",
     "formula": "",
-    "image": "https://uploads.consultaremedios.com.br/product_variation_images/full/e6052408670995ecb65281391ef7ba38e10dc8d1.JPG?1628872077",
+    "image": "",
     "aliases": [],
     "mixtures": {
       "dangerous": [],
@@ -125,7 +106,7 @@
   {
     "name": "Ácido acetilsalicílico",
     "formula": "",
-    "image": "https://www.drogariaminasbrasil.com.br/media/product/ccb/acido-acetilsalicilico-100mg-com-30-comprimidos-generico-medquimica-b88.jpg",
+    "image": "",
     "aliases": [
       "Aspirina",
       "AAS",
@@ -140,7 +121,7 @@
   {
     "name": "Rivotril",
     "formula": "",
-    "image": "https://cdn-cosmos.bluesoft.com.br/products/7896226501239",
+    "image": "",
     "aliases": [
       "Clonazepam"
     ],
@@ -153,7 +134,7 @@
   {
     "name": "Anti-inflamatório",
     "formula": "",
-    "image": "https://petshopamarosbichos.fbitsstatic.net/img/p/carproflan-anti-inflamatorio-agener-uniao-70438/257037.jpg?w=420&h=420&v=no-change&qs=ignore",
+    "image": "",
     "aliases": [
       "Cataflan",
       "Nimesulida",
@@ -173,7 +154,7 @@
   {
     "name": "Ibuprofeno",
     "formula": "",
-    "image": "https://www.drogariaminasbrasil.com.br/media/product/219/ibuprofeno-50mg-suspensao-gotas-30ml-generico-geolab-e60.jpg",
+    "image": "",
     "aliases": [
       "Advil",
       "Alivium",
@@ -188,7 +169,7 @@
   {
     "name": "Antiácido",
     "formula": "",
-    "image": "https://io.convertiez.com.br/m/drogal/shop/products/images/9993417/medium/antiacido-gastrol-20-pastilhas-mastigaveis_31318.jpg",
+    "image": "",
     "aliases": [
       "Eno",
       "Sonrisal",
@@ -204,7 +185,7 @@
   {
     "name": "Levotiroxina sódica",
     "formula": "",
-    "image": "https://cdn-cosmos.bluesoft.com.br/products/7891721019999",
+    "image": "",
     "aliases": [
       "Hormônio da tireoide",
       "Puran T4",
@@ -219,7 +200,7 @@
   {
     "name": "Torsilax",
     "formula": "",
-    "image": "https://santoantoniodrogaria.com.br/galerias/oWejMOVMvrNkr9a/fcae4519-5789-46a0-a9de-9da1d17a5c08-K4oeEKZOx0Nb0By_lg.jpg",
+    "image": "",
     "aliases": [],
     "mixtures": {
       "dangerous": [],
@@ -230,7 +211,7 @@
   {
     "name": "Paracetamol",
     "formula": "",
-    "image": "https://www.hipolabor.com.br/wp-content/uploads/2016/07/Paracetamol-gotas.jpg",
+    "image": "",
     "aliases": [
       "Tylenol",
       "Resfenol",
@@ -238,9 +219,7 @@
       "Cimegripe"
     ],
     "mixtures": {
-      "dangerous": [
-        "Bebida alcoólica"
-      ],
+      "dangerous": [],
       "unrecommended": [],
       "safe": []
     }
@@ -248,7 +227,7 @@
   {
     "name": "Dipirona",
     "formula": "",
-    "image": "https://io.convertiez.com.br/m/drogal/shop/products/images/672629/large/dipirona-sodica-500mg-de-10ml-medley_6243.jpg",
+    "image": "",
     "aliases": [
       "Novalgina",
       "Dorflex",
@@ -257,19 +236,15 @@
       "Benegrip"
     ],
     "mixtures": {
-      "dangerous": [
-        "Bebida alcoólica"
-      ],
+      "dangerous": [],
       "unrecommended": [],
-      "safe": [
-        "Leite"
-      ]
+      "safe": []
     }
   },
   {
     "name": "Detergente",
     "formula": "",
-    "image": "https://media.soujusto.com.br/products/bc45e8e91700e557fe42944c14353cac.jpg",
+    "image": "",
     "aliases": [
       "Detergente Líquido",
       "Detergente em Pó",
@@ -277,9 +252,7 @@
       "Sabão"
     ],
     "mixtures": {
-      "dangerous": [
-        "Água sanitária"
-      ],
+      "dangerous": [],
       "unrecommended": [],
       "safe": []
     }
@@ -287,51 +260,35 @@
   {
     "name": "Vinagre",
     "formula": "",
-    "image": "https://t76496.vteximg.com.br/arquivos/ids/155437-1000-1000/alcoolcolorido.jpg?v=637516096900170000",
+    "image": "",
     "aliases": [
       "Ácido acético"
     ],
     "mixtures": {
-      "dangerous": [
-        "Água oxigenada",
-        "Água sanitária",
-        "Desinfetante"
-      ],
+      "dangerous": [],
       "unrecommended": [],
-      "safe": [
-        "Álcool",
-        "Bicarbonato de sódio"
-      ]
+      "safe": []
     }
   },
   {
     "name": "Água sanitária",
     "formula": "",
-    "image": "https://m.media-amazon.com/images/I/619dW5ITWsL._AC_SL1500_.jpg",
+    "image": "",
     "aliases": [
       "Hipoclorito de sódio",
       "Candida",
       "Cloro"
     ],
     "mixtures": {
-      "dangerous": [
-        "Álcool",
-        "Detergente",
-        "Vinagre",
-        "Desinfetante"
-      ],
-      "unrecommended": [
-        "Açúcar"
-      ],
-      "safe": [
-        "Água oxigenada"
-      ]
+      "dangerous": [],
+      "unrecommended": [],
+      "safe": []
     }
   },
   {
     "name": "Desinfetante",
     "formula": "",
-    "image": "https://www.mmcleandetaill.com.br/wp-content/webp-express/webp-images/uploads/2021/06/LAVANDA-NOVO-5.png.webp",
+    "image": "",
     "aliases": [
       "Pinho Sol",
       "Lisoform",
@@ -339,10 +296,7 @@
       "Ajax"
     ],
     "mixtures": {
-      "dangerous": [
-        "Vinagre",
-        "Água sanitária"
-      ],
+      "dangerous": [],
       "unrecommended": [],
       "safe": []
     }
@@ -350,57 +304,46 @@
   {
     "name": "Bicarbonato de sódio",
     "formula": "",
-    "image": "https://hiperideal.vteximg.com.br/arquivos/ids/171167-1000-1000/914673.jpg?v=636622257656070000",
+    "image": "",
     "aliases": [
       "Fermento em pó"
     ],
     "mixtures": {
       "dangerous": [],
       "unrecommended": [],
-      "safe": [
-        "Vinagre"
-      ]
+      "safe": []
     }
   },
   {
     "name": "Leite",
     "formula": "",
-    "image": "https://alimentesebem.sesisp.org.br/app/uploads/2021/07/26443_Leite-faz-mal-a-saude_BANNER_Alimentacao-Saudavel-729x410.png",
+    "image": "",
     "aliases": [],
     "mixtures": {
-      "dangerous": [
-        "Antibiótico"
-      ],
+      "dangerous": [],
       "unrecommended": [],
-      "safe": [
-        "Dipirona",
-        "Manga"
-      ]
+      "safe": []
     }
   },
   {
     "name": "Manga",
     "formula": "",
-    "image": "https://hiperideal.vteximg.com.br/arquivos/ids/167726/62332.jpg?v=636615816353730000",
+    "image": "",
     "aliases": [],
     "mixtures": {
       "dangerous": [],
       "unrecommended": [],
-      "safe": [
-        "Leite"
-      ]
+      "safe": []
     }
   },
   {
     "name": "Açúcar",
     "formula": "",
-    "image": "https://s2.static.brasilescola.uol.com.br/img/2019/09/acucar.jpg",
+    "image": "",
     "aliases": [],
     "mixtures": {
       "dangerous": [],
-      "unrecommended": [
-        "Água sanitária"
-      ],
+      "unrecommended": [],
       "safe": []
     }
   }

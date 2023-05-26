@@ -85,27 +85,3 @@ main {
 .combineButton:hover {
   background-color: #002b4d;
 }
-
-.resultContainer {
-  margin: 100px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid #003357;
-  border-radius: 10px;
-  height: auto;
-  padding: 10px;
-  width: 100%;
-  max-width: 90vw;
-  text-align: center;
-}
-
-.resultContainer h1 {
-  font-size: 1.5em;
-  margin-bottom: 20px;
-}
-
-.resultContainer p {
-  font-size: 0.9em;
-}

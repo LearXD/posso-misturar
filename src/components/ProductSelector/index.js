@@ -1,22 +1,28 @@
+import { useEffect } from 'react';
 import { getFirstSelectItens, getProductByName, getSecondSelectItens } from '../../data/MixturesManager';
 
 import './style.css'
-
+import { useState } from 'react';
 
 function ProductSelector({
   selected,
   selectProduct,
-  firstSelected,
+  firstSelected = '',
   isFirst
 }) {
 
+  const [data, setData] = useState([])
   const handleSelect = (e) => {
     selectProduct && selectProduct(
       e.target.value === "Selecione" ? null : e.target.value
     )
   }
 
-  const data = isFirst ? getFirstSelectItens() : (firstSelected && getSecondSelectItens(firstSelected ?? ''))
+  useEffect(() => {
+    (async () => {
+      setData(isFirst ? await getFirstSelectItens() : (firstSelected && getSecondSelectItens(firstSelected)))
+    })()
+  }, [isFirst, firstSelected])
 
   return (
     <div className='productSelector'>

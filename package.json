@@ -1,6 +1,6 @@
 {
   "name": "misturas-website",
-  "homepage": "https://LearXD.github.io/pode-misturar",
+  "homepage": "https://deploy.learxd.dev/pode-misturar/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

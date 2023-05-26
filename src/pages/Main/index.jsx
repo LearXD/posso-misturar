@@ -7,6 +7,7 @@ import { animateScroll as scroll } from 'react-scroll';
 import { combineWith, getTitlePerType } from '../../data/MixturesManager'
 import './style.css';
 import ProductSelector from '../../components/ProductSelector';
+import { Result } from '../../components/Result';
 
 function Main() {
 
@@ -17,9 +18,9 @@ function Main() {
 
   const setScopeProduct = (product) => {
     setFirstSelected(null)
-    setFirstSelected(product)
     setSecondSelected(null)
     setResult(null)
+    setFirstSelected(product)
   }
 
   const combineItens = () => {
@@ -27,15 +28,13 @@ function Main() {
       return;
 
     const data = combineWith(firstSelected, secondSelected)
-    // scroll to end
+
     scroll.scrollToBottom({
       "smooth": true
     });
 
     setResult(data)
   }
-
-  const type = "dangerous";
 
   return (
     <>
@@ -68,16 +67,9 @@ function Main() {
             {firstSelected && secondSelected ? "COMBINAR" : "Selecione dois produtos!"}
           </button>
 
-          <div className='resultsContainer'>
-
-          </div>
-
           {
             result && (
-              <div className='resultContainer'>
-                <h1 style={{ backgroundColor: type === result.type ? "#FF0000" : "transparent" }}>{getTitlePerType(result.type)}</h1>
-                <p>{result.message}</p>
-              </div>
+              <Result result={result} title={getTitlePerType(result.type)} />
             )
           }
         </div>

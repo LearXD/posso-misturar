@@ -1,19 +1,20 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
 
 import Main from "./pages/Main";
-
 import './global.css';
 
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Main />,
+  },
+]);
+
 function Router() {
-  return (
-    <>
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Main />} />
-        </Routes>
-      </BrowserRouter>
-    </>
-  );
+  return <RouterProvider router={router} />;
 }
 
 export default Router;

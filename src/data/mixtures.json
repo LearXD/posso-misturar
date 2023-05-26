@@ -1,50 +1,138 @@
 [
   {
-    "type": "dangerous",
+    "type": "safe",
     "products": [
-      "Peroxido de Hidrogenio",
-      "Amonia"
-    ],
-    "message": "Mistura de amonia com peróxido de hidrogênio pode liberar gás peracético, que é tóxico."
-  },
-  {
-    "type": "dangerous",
-    "products": [
-      "Peroxido de Hidrogenio",
-      "Vinagre"
-    ],
-    "message": "Mistura de vinagre com peróxido de hidrogênio pode liberar gás peracético, que é tóxico."
-  },
-  {
-    "type": "dangerous",
-    "products": [
-      "Alvejante",
-      "Vinagre"
-    ],
-    "message": "Mistura de vinagre com alvejante pode liberar gás cloro, que é tóxico."
-  },
-  {
-    "type": "dangerous",
-    "products": [
-      "Alvejante",
-      "Amônia"
-    ],
-    "message": "Mistura de amônia com alvejante pode liberar gás cloro, que é tóxico. A mistura de alvejante com álcool é perigosa, pois libera cloramina. A cloramina queima os olhos e o sistema respiratório e pode causar danos aos órgãos internos. Se houver amônia suficiente na mistura, a hidrazina pode ser produzida. A hidrazina não é apenas tóxica, mas também potencialmente explosiva. O melhor cenário é desconforto; o pior cenário é a morte."
-  },
-  {
-    "type": "dangerous",
-    "products": [
-      "Alvejante",
+      "Vinagre",
       "Álcool"
     ],
-    "message": "A mistura de alvejante com álcool é perigosa, pois libera clorofórmio. Nocivo por ingestão. Irritante para a pele. Possibilidade de efeitos cancerígenos. Nocivo: risco de efeitos graves para a saúde em caso de exposição prolongada por inalação e ingestão."
+    "message": "Misturar vinagre com álcool é seguro porque ambos são solúveis em água e são compostos não tóxicos. Além disso, a mistura não reage quimicamente de forma perigosa. No entanto, é importante lembrar que essa mistura em grandes quantidades pode ser prejudicial à saúde e que deve ser manuseada com cuidado."
   },
   {
     "type": "dangerous",
     "products": [
-      "Amônia",
-      "Alvejante"
+      "Álcool",
+      "Água sanitária"
     ],
-    "message": ""
+    "message": "Não devemos misturar álcool com água sanitária porque essa combinação pode produzir uma reação química perigosa que libera gás cloro, que é tóxico e pode causar irritação nos olhos, nariz, garganta e pulmões. Além disso, a mistura também pode gerar fogo, já que o álcool é inflamável. É importante nunca misturar esses produtos e sempre seguir as instruções de uso de cada um."
+  },
+  {
+    "type": "dangerous",
+    "products": [
+      "Água oxigenada",
+      "Vinagre"
+    ],
+    "message": "Não devemos misturar água oxigenada com vinagre porque a mistura pode produzir um gás chamado peróxido de acetato, que é instável e altamente inflamável, podendo causar danos à pele e aos olhos. Além disso, a mistura pode produzir um ácido corrosivo que pode danificar superfícies e equipamentos."
+  },
+  {
+    "type": "safe",
+    "products": [
+      "Água oxigenada",
+      "Água sanitária"
+    ],
+    "message": "Não é seguro misturar Água oxigenada com Água sanitária, pois essa mistura pode liberar vapores tóxicos (cloro gás) que podem ser nocivos à saúde e causar irritações na pele, olhos e vias respiratórias. Além disso, essa reação pode gerar calor e até mesmo levar a explosões. É importante não misturar produtos químicos sem a orientação de um profissional capacitado."
+  },
+  {
+    "type": "dangerous",
+    "products": [
+      "Antibiótico",
+      "Bebida alcoólica"
+    ],
+    "message": "Antibióticos e bebidas alcoólicas podem ter interações negativas que podem reduzir a eficácia do medicamento, aumentar a toxicidade do álcool ou do medicamento ou causar sintomas indesejáveis, como náuseas, vômitos e dores de cabeça. É importante seguir as instruções de dosagem do medicamento e evitar o consumo de álcool durante o tratamento com antibióticos."
+  },
+  {
+    "type": "dangerous",
+    "products": [
+      "Antibiótico",
+      "Leite"
+    ],
+    "message": "Não se recomenda misturar antibióticos com leite, pois o cálcio presente no leite pode inibir a absorção do medicamento pelo organismo, diminuindo seu efeito. Além disso, a ingestão de leite pode provocar irritação no estômago, especialmente em algumas pessoas."
+  },
+  {
+    "type": "safe",
+    "products": [
+      "Bebida alcoólica",
+      "Loratadina"
+    ],
+    "message": "Não é seguro misturar bebida alcoólica com loratadina, pois o álcool pode aumentar os efeitos colaterais da loratadina e diminuir a eficácia do medicamento. Além disso, a mistura pode levar a problemas de sedação e comprometimento da capacidade de dirigir ou operar máquinas. É importante sempre seguir as orientações médicas e farmacêuticas em relação ao uso de medicamentos e álcool."
+  },
+  {
+    "type": "dangerous",
+    "products": [
+      "Bebida alcoólica",
+      "Dipirona"
+    ],
+    "message": "Não se deve misturar bebida alcoólica com dipirona porque o álcool aumenta a toxicidade do medicamento, podendo prejudicar o fígado e causar outros efeitos colaterais graves."
+  },
+  {
+    "type": "dangerous",
+    "products": [
+      "Bebida alcoólica",
+      "Paracetamol"
+    ],
+    "message": "Não podemos misturar bebida alcoólica com paracetamol porque a combinação pode danificar o fígado e aumentar o risco de problemas hepáticos."
+  },
+  {
+    "type": "safe",
+    "products": [
+      "Dipirona",
+      "Leite"
+    ],
+    "message": "Não há evidências de que misturar Dipirona com Leite seja perigoso. No entanto, é importante lembrar que misturar medicamentos com outros produtos pode interferir na forma como o medicamento é absorvido pelo corpo, o que pode afetar sua eficácia. Portanto, é sempre recomendável seguir as instruções do médico ou farmacêutico e evitar misturar medicamentos com outros produtos sem orientação adequada."
+  },
+  {
+    "type": "dangerous",
+    "products": [
+      "Detergente",
+      "Água sanitária"
+    ],
+    "message": "Não se deve misturar detergente com água sanitária porque essa mistura pode liberar gases tóxicos, como o cloroformio, que podem causar irritação nos olhos, nariz e garganta, além de serem perigosos para a saúde."
+  },
+  {
+    "type": "dangerous",
+    "products": [
+      "Vinagre",
+      "Água sanitária"
+    ],
+    "message": "Não é seguro misturar vinagre (ácido acético) com água sanitária (hipoclorito de sódio), pois isso pode formar uma reação química que libera gás cloro, que é altamente tóxico e pode causar problemas respiratórios e irritações na pele e nos olhos."
+  },
+  {
+    "type": "dangerous",
+    "products": [
+      "Vinagre",
+      "Desinfetante"
+    ],
+    "message": "Não devemos misturar vinagre com desinfetante porque a mistura pode produzir gases tóxicos que podem ser prejudiciais à saúde. Além disso, a mistura pode inativar a ação desinfetante dos produtos, tornando-os menos eficazes na eliminação de bactérias e vírus."
+  },
+  {
+    "type": "safe",
+    "products": [
+      "Vinagre",
+      "Bicarbonato de sódio"
+    ],
+    "message": "Vinagre e bicarbonato de sódio são seguros para serem misturados porque a reação química entre eles gera dióxido de carbono, água e acetato de sódio, que são compostos não tóxicos e comuns em nossa vida cotidiana. No entanto, é importante tomar cuidado com a quantidade utilizada, pois a reação pode ser violenta se adicionado em excesso. Além disso, evite o contato com os olhos e a pele, e sempre faça a mistura em um recipiente adequado."
+  },
+  {
+    "type": "dangerous",
+    "products": [
+      "Água sanitária",
+      "Desinfetante"
+    ],
+    "message": "Não se deve misturar água sanitária com desinfetante porque a mistura pode causar uma reação química que libera gases tóxicos, que podem ser prejudiciais à saúde, além de poder causar incêndios ou explosões."
+  },
+  {
+    "type": "unrecommended",
+    "products": [
+      "Água sanitária",
+      "Açúcar"
+    ],
+    "message": "Não é recomendado misturar água sanitária com açúcar porque o açúcar pode reagir com a água sanitária e produzir um gás tóxico chamado cloroamina, que pode ser perigoso para a saúde. Além disso, a mistura pode gerar calor e causar uma reação violenta. É melhor evitar essa mistura."
+  },
+  {
+    "type": "safe",
+    "products": [
+      "Leite",
+      "Manga"
+    ],
+    "message": "Não há nenhum risco conhecido em misturar leite com manga. Ambos são alimentos seguros e não reagem quimicamente quando combinados. No entanto, algumas pessoas podem ter intolerância à lactose ou alergia à manga, o que pode causar reações negativas."
   }
 ]
