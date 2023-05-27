@@ -11,7 +11,7 @@ export const getTitlePerType = (type) => {
   const types = {
     safe: "Pode Misturar!",
     dangerous: "Não Pode Misturar!",
-    warning: "Pode Misturar! Porem..."
+    unrecommended: "Pode Misturar! Porem..."
   };
   return types[type] ?? "Não há informações suficientes";
 }
@@ -45,9 +45,22 @@ export const getSecondSelectItens = (firstSelectValue) => {
 
 export const combineWith = (a, b) => {
 
+  const unrecommended = {
+    type: "unrecommended",
+    products: [a, b],
+    message: 'Não temos dados sobre se essa mistura é perigosa ou não, recomendamos pesquisar mais profundamente na internet'
+  }
+
+  const productA = getProductByName(a)
+  const productB = getProductByName(b)
+
+  if (!productA || !productB) {
+    return unrecommended
+  }
+
   const data = mixtures.find(
     (mixture) => {
-      return (mixture.products.indexOf(a) !== -1 && mixture.products.indexOf(b) !== -1)
+      return (mixture.products.indexOf(productA.name) !== -1 && mixture.products.indexOf(productB.name) !== -1)
     }
   )
 
@@ -55,9 +68,5 @@ export const combineWith = (a, b) => {
     return data;
   }
 
-  return {
-    type: "safe",
-    products: [a, b],
-    message: 'Não há indicação de que a mistura seja perigosa'
-  }
+  return unrecommended
 }

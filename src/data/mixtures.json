@@ -24,7 +24,7 @@
     "message": "Não devemos misturar água oxigenada com vinagre porque a mistura pode produzir um gás chamado peróxido de acetato, que é instável e altamente inflamável, podendo causar danos à pele e aos olhos. Além disso, a mistura pode produzir um ácido corrosivo que pode danificar superfícies e equipamentos."
   },
   {
-    "type": "safe",
+    "type": "unrecommended",
     "products": [
       "Água oxigenada",
       "Água sanitária"
@@ -48,7 +48,7 @@
     "message": "Não se recomenda misturar antibióticos com leite, pois o cálcio presente no leite pode inibir a absorção do medicamento pelo organismo, diminuindo seu efeito. Além disso, a ingestão de leite pode provocar irritação no estômago, especialmente em algumas pessoas."
   },
   {
-    "type": "safe",
+    "type": "unrecommended",
     "products": [
       "Bebida alcoólica",
       "Loratadina"

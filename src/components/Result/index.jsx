@@ -2,14 +2,18 @@ import './styles.css'
 
 export const Result = ({ result, title, description }) => {
 
-  const dangerous = result.type === "dangerous"
+  const color = {
+    dangerous: "#FF0000",
+    safe: "#00FF00",
+    unrecommended: "#FFA500"
+  }[result.type] ?? '#000000'
 
   return (
     <div className='resultContainer' style={{
-      borderColor: dangerous ? "#FF0000" : "#00FF00"
+      borderColor: color
     }}>
       <h1 style={{
-        color: dangerous ? "#FF0000" : "#00FF00"
+        color: color
       }}>
         {title}
       </h1>
