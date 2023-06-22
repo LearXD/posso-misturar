@@ -1,0 +1,15 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 100px;
+  width: 100vw;
+  color: white;
+}
+
+footer p {
+  font-size: 0.6em;
+  font-family: 'Ubuntu', sans-serif;
+}

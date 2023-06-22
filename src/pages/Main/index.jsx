@@ -1,13 +1,13 @@
 import { useState } from 'react';
 
-import Header from '../../components/pages/Header';
-import Footer from '../../components/pages/Footer'
+import Header from '../../components/Header';
+import Footer from '../../components/Footer'
 
 import { animateScroll as scroll } from 'react-scroll';
-import { combineWith, getTitlePerType } from '../../data/MixturesManager'
+import { combineWith, getTitlePerType } from '../../utils/MixturesManager'
 import './style.css';
-import ProductSelector from '../../components/ProductSelector';
-import { Result } from '../../components/Result';
+import ProductSelector from './components/ProductSelector';
+import { Result } from './components/Result';
 
 function Main() {
 
@@ -28,33 +28,35 @@ function Main() {
       return;
 
     const data = combineWith(firstSelected, secondSelected)
-
-    scroll.scrollToBottom({
-      "smooth": true
-    });
-
+    scroll.scrollToBottom({ smooth: true });
     setResult(data)
   }
 
   return (
-    <>
+    <div>
       <Header />
       <main>
-        <div className='mainContainer'>
-          <div className='titleContainer'>
+        <div className='main-container'>
+
+          <div className='title-container'>
             <h1>Posso Misturar?</h1>
-            <p>"Um site para você descobrir se pode misturar certos produtos"</p>
+            <div>
+              <p>~ Descubra se o elemento que deseja misturar pode causar alguma reação indesejada! ~</p>
+              <p class="alert">(ALGUNS PRODUTOS/MEDICAMENTOS POSSUEM A MESMA IMAGEM POIS PARTICIPAM DA MESMA CLASSE)</p>
+            </div>
+
           </div>
 
-          <div className="productsContainer">
-
+          <div className="products-container">
             <ProductSelector
               selected={firstSelected}
               selectProduct={setScopeProduct}
               isFirst
             />
 
-            <p>COM</p>
+            <div>
+              <p>COM</p>
+            </div>
 
             <ProductSelector
               selected={secondSelected}
@@ -63,7 +65,11 @@ function Main() {
             />
           </div>
 
-          <button onClick={combineItens} disabled={!firstSelected || !secondSelected} className='combineButton'>
+          <button
+            className='combine-button'
+            onClick={combineItens}
+            disabled={!firstSelected || !secondSelected}
+          >
             {firstSelected && secondSelected ? "COMBINAR" : "Selecione dois produtos!"}
           </button>
 
@@ -72,10 +78,11 @@ function Main() {
               <Result result={result} title={getTitlePerType(result.type)} />
             )
           }
+
         </div>
       </main >
       <Footer />
-    </>
+    </div>
   )
 }
 

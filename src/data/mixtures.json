@@ -8,12 +8,20 @@
     "message": "Misturar vinagre com álcool é seguro porque ambos são solúveis em água e são compostos não tóxicos. Além disso, a mistura não reage quimicamente de forma perigosa. No entanto, é importante lembrar que essa mistura em grandes quantidades pode ser prejudicial à saúde e que deve ser manuseada com cuidado."
   },
   {
+    "type": "safe",
+    "products": [
+      "Detergente",
+      "Álcool"
+    ],
+    "message": "Pode misturar! Detergente neutro misturado com o álcool têm um alto potencial de higienização. Esta mistura pode ser utilizada para limpar superfícies em que se deseja obter um brilho extra, como o piso ou uma bancada.  É importante lembrar que o álcool é um produto inflamável, então jamais utilize esta mistura perto do fogo."
+  },
+  {
     "type": "dangerous",
     "products": [
       "Álcool",
       "Água sanitária"
     ],
-    "message": "Não devemos misturar álcool com água sanitária porque essa combinação pode produzir uma reação química perigosa que libera gás cloro, que é tóxico e pode causar irritação nos olhos, nariz, garganta e pulmões. Além disso, a mistura também pode gerar fogo, já que o álcool é inflamável. É importante nunca misturar esses produtos e sempre seguir as instruções de uso de cada um."
+    "message": "Não devemos misturar álcool com água sanitária porque essa combinação pode produzir uma reação química que gera clorofórmio e outros compostos potencialmente tóxicos.  O clorofórmio é um composto nocivo e irritante, podendo causar problemas nos pulmões, rins e na pele."
   },
   {
     "type": "dangerous",
@@ -21,7 +29,7 @@
       "Água oxigenada",
       "Vinagre"
     ],
-    "message": "Não devemos misturar água oxigenada com vinagre porque a mistura pode produzir um gás chamado peróxido de acetato, que é instável e altamente inflamável, podendo causar danos à pele e aos olhos. Além disso, a mistura pode produzir um ácido corrosivo que pode danificar superfícies e equipamentos."
+    "message": "Não devemos misturar água oxigenada com vinagre porque a mistura gera  ácido peracético, substância corrosiva, ou seja que pode causar queimaduras na pele e danos as superfícies,  além de causar danos ao meio ambiente."
   },
   {
     "type": "unrecommended",
@@ -29,7 +37,7 @@
       "Água oxigenada",
       "Água sanitária"
     ],
-    "message": "Não é seguro misturar Água oxigenada com Água sanitária, pois essa mistura pode liberar vapores tóxicos (cloro gás) que podem ser nocivos à saúde e causar irritações na pele, olhos e vias respiratórias. Além disso, essa reação pode gerar calor e até mesmo levar a explosões. É importante não misturar produtos químicos sem a orientação de um profissional capacitado."
+    "message": "A mistura entre água sanitária e água oxigenada libera gás oxigênio que não é nocivo, mas dependendo da concentração dos produtos a liberação de gás pode ser intensa e associada ao calor liberado na reação pode levar a explosões. É importante não misturar produtos químicos sem a orientação de um profissional capacitado."
   },
   {
     "type": "dangerous",
@@ -85,7 +93,15 @@
       "Detergente",
       "Água sanitária"
     ],
-    "message": "Não se deve misturar detergente com água sanitária porque essa mistura pode liberar gases tóxicos, como o cloroformio, que podem causar irritação nos olhos, nariz e garganta, além de serem perigosos para a saúde."
+    "message": "Não pode misturar! Ao contrário do que se pensa, misturar água sanitária (cloro) com sabão ou detergente não potencializa a ação de limpeza. Esta mistura promove uma reação de neutralização, e em alguns casos de detergente/sabão com grupo amina ocorre a formação de cloroaminas, que prejudicam as vias respiratórias."
+  },
+  {
+    "type": "dangerous",
+    "products": [
+      "Detergente em Pó",
+      "Água sanitária"
+    ],
+    "message": "Não pode misturar! Ao contrário do que se pensa, misturar água sanitária (cloro) com detergente em pó não potencializa a ação de limpeza. Esta mistura promove uma reação de neutralização, e em alguns casos de detergente/sabão com grupo amina ocorre a formação de cloroaminas, que prejudicam as vias respiratórias."
   },
   {
     "type": "dangerous",
@@ -104,6 +120,14 @@
     "message": "Não devemos misturar vinagre com desinfetante porque a mistura pode produzir gases tóxicos que podem ser prejudiciais à saúde. Além disso, a mistura pode inativar a ação desinfetante dos produtos, tornando-os menos eficazes na eliminação de bactérias e vírus."
   },
   {
+    "type": "dangerous",
+    "products": [
+      "Vinagre",
+      "Lisoform"
+    ],
+    "message": "Não devemos misturar vinagre com Lisoform porque a mistura pode produzir gases tóxicos que podem ser prejudiciais à saúde. Além disso, a mistura pode inativar a ação desinfetante dos produtos, tornando-os menos eficazes na eliminação de bactérias e vírus."
+  },
+  {
     "type": "safe",
     "products": [
       "Vinagre",
@@ -112,20 +136,36 @@
     "message": "Vinagre e bicarbonato de sódio são seguros para serem misturados porque a reação química entre eles gera dióxido de carbono, água e acetato de sódio, que são compostos não tóxicos e comuns em nossa vida cotidiana. No entanto, é importante tomar cuidado com a quantidade utilizada, pois a reação pode ser violenta se adicionado em excesso. Além disso, evite o contato com os olhos e a pele, e sempre faça a mistura em um recipiente adequado."
   },
   {
+    "type": "safe",
+    "products": [
+      "Detergente",
+      "Bicarbonato de sódio"
+    ],
+    "message": "Pode misturar! Detergente neutro misturado com o bicarbonato de sódio não promove reação química, então esta mistura é segura. Dependendo da proporção entre os produtos esta forma uma mistura com características abrasivas."
+  },
+  {
     "type": "dangerous",
     "products": [
       "Água sanitária",
       "Desinfetante"
     ],
-    "message": "Não se deve misturar água sanitária com desinfetante porque a mistura pode causar uma reação química que libera gases tóxicos, que podem ser prejudiciais à saúde, além de poder causar incêndios ou explosões."
+    "message": "Não se deve misturar água sanitária com desinfetantes, que geralmente são à base de amoníacos, pois ocorre uma reação química que libera compostos do tipo cloroaminas, que se inaladas, podem causar problemas de saúde que vão desde alergias até intoxicações e queimaduras."
   },
   {
-    "type": "unrecommended",
+    "type": "dangerous",
+    "products": [
+      "Água sanitária",
+      "Lisoform"
+    ],
+    "message": "Não se deve misturar água sanitária com desinfetantes, que geralmente são à base de amoníacos, pois ocorre uma reação química que libera compostos do tipo cloroaminas, que se inaladas, podem causar problemas de saúde que vão desde alergias até intoxicações e queimaduras."
+  },
+  {
+    "type": "dangerous",
     "products": [
       "Água sanitária",
       "Açúcar"
     ],
-    "message": "Não é recomendado misturar água sanitária com açúcar porque o açúcar pode reagir com a água sanitária e produzir um gás tóxico chamado cloroamina, que pode ser perigoso para a saúde. Além disso, a mistura pode gerar calor e causar uma reação violenta. É melhor evitar essa mistura."
+    "message": "Não pode misturar! Não devemos misturar água sanitária  com açúcar, já que esta combinação pode formar ácido clorídrico e gás cloro que são nocivos à saúde e além de causar irritações na pele, olhos e vias respiratórias.  Além disso, essa reação pode gerar calor e até mesmo levar a explosões. "
   },
   {
     "type": "safe",

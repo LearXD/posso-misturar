@@ -1,72 +1,59 @@
-main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px 20px;
-  height: 100%;
-}
-
-.mainContainer {
+.main-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100vw;
-  max-width: 900px;
-  min-height: 100vh;
-  height: auto;
+  max-width: 1200px;
+  padding: 20px;
+  gap: 40px
 }
 
-.titleContainer {
+.title-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: auto;
+  gap: 30px;
 }
 
-.titleContainer h1 {
+.title-container h1 {
   color: #003357;
   text-align: center;
   flex-wrap: wrap;
-  font-family: 'Kalam', cursive;
-  font-size: 8vh;
-  margin-bottom: 20px;
+  font-family: 'Poppins', cursive;
+  font-size: 3rem;
 }
 
-.titleContainer p {
+.title-container p {
   text-align: center;
-  font-size: 3vh;
-  margin-bottom: 20px;
+  font-size: 1rem;
 }
 
-.productsContainer {
+.title-container .alert {
+  color: red;
+  font-size: 0.6rem;
+}
+
+.products-container {
   display: flex;
+
+  width: 95%;
+  height: auto;
+
   flex-direction: row;
   align-items: center;
-  justify-content: space-around;
-  /* height: 100%;
-  width: 100%; */
-  width: 100%;
-  height: 400px;
+  justify-content: center;
+  gap: 100px;
 }
 
-@media only screen and (max-width: 768px) {
-  .titleContainer {
-    height: auto;
-  }
 
-  .productsContainer {
+@media only screen and (max-width: 720px) {
+  .products-container {
     flex-direction: column;
-    justify-content: center;
-    height: 800px;
+    gap: 30px;
   }
 }
 
-.productsContainer p {
-  font-size: 1.5em;
-}
 
-.combineButton {
+.combine-button {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -82,6 +69,6 @@ main {
   width: 95%;
 }
 
-.combineButton:hover {
+.combine-button:hover {
   background-color: #002b4d;
 }

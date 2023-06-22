@@ -1,0 +1,55 @@
+.about-container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.about-persons-container {
+  display: flex;
+  width: 100vw;
+  padding: 0 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.persons-container {
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+  max-width: 1200px;
+  width: 100%;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 720px) {
+  .persons-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1120px;
+  font-family: 'Montserrat', sans-serif;
+  gap: 10px;
+}
+
+.info-container h1 {
+  font-size: 1.5rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+.info-container h2 {
+  font-size: .9rem;
+}
+
+.info-container p {
+  font-size: 0.6rem;
+}
