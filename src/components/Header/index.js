@@ -6,7 +6,7 @@ function Header() {
     <header>
       <div className='header-container'>
         <div className='header-logo-container'>
-          <Link to="/">PODE MISTURAR?</Link>
+          <Link to="/">POSSO MISTURAR?</Link>
         </div>
         <div className='header-nav-container'>
           {/* 
