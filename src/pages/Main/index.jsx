@@ -41,8 +41,8 @@ function Main() {
           <div className='title-container'>
             <h1>Posso Misturar?</h1>
             <div>
-              <p>~ Descubra se o elemento que deseja misturar pode causar alguma reação indesejada! ~</p>
-              <p class="alert">(ALGUNS PRODUTOS/MEDICAMENTOS POSSUEM A MESMA IMAGEM POIS PARTICIPAM DA MESMA CLASSE)</p>
+              <p>~ Descubra se o produto que deseja misturar pode causar alguma reação indesejada! ~</p>
+              <p class="alert">(ALGUNS PRODUTOS/MEDICAMENTOS POSSUEM A MESMA IMAGEM, POIS PARTICIPAM DA MESMA CLASSE)</p>
             </div>
 
           </div>
