@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
 
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 * {
   margin: 0px;
   padding: 0px;
@@ -11,6 +17,15 @@
   font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
 
+}
+
+html {
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+html body {
+  max-width: 100vw;
 }
 
 main {
