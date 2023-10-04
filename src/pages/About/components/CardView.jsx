@@ -3,13 +3,12 @@ import './styles.css'
 const CardView = function ({
   title,
   description,
-  image
 }) {
   return (
     <div className="card-container">
-      <div className='card-image-container'>
+      {/* <div className='card-image-container'>
         <img src={image} alt="user" />
-      </div>
+      </div> */}
 
       <div className='card-text-container'>
         <h3> {title} </h3>

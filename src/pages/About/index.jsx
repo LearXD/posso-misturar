@@ -3,10 +3,6 @@ import Footer from './../../components/Footer'
 import CardView from "./components/CardView";
 import './style.css'
 
-import miguel from '../../assets/miguel.jpg'
-import adriano from '../../assets/adriano.png'
-import tamyris from '../../assets/tamyris.png'
-
 const About = function () {
   return (
     <div>
@@ -21,17 +17,14 @@ const About = function () {
           <div className="persons-container">
 
             <CardView
-              image={adriano}
               title="Adriano Lages dos Santos "
               description="Professor de Programação no IFMG de Itabirito, no curso técnico de Automação Industrial."
             />
             <CardView
-              image={miguel}
               title="Miguel Silva Pinheiro"
               description="Estudante do IFMG de Itabirito, no curso técnico de Automação Industrial."
             />
             <CardView
-              image={tamyris}
               title="Tamyris Teixeira da Cunha"
               description="Professora de Química no IFMG de Itabirito, no curso técnico de Automação Industrial."
             />
